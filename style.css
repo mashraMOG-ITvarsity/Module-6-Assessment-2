@@ -1,0 +1,275 @@
+/************************************************************************************/
+/*Universal styles                                                                  */
+/************************************************************************************/
+
+body{
+    margin:0;
+    padding:0;
+    background-color:white;
+    font-family:'Raleway',sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color:#363636;
+}
+
+p{
+    line-height:190%;
+    color:#7d0624;
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+    color:#7d0624;
+}
+
+h3{
+    text-align:center;
+    font-size:25px;
+    font-weight:500;
+    margin:-5px 200px 20px 200px;
+    padding:7px;
+    background-color:#970227;
+    color:white;
+}
+
+h4{
+    font-weight: 200;
+    color:#970227;
+}
+
+/************************************************************************************/
+/*Menu                                                                              */
+/************************************************************************************/
+
+#menu{
+    background-color:#900528;
+    height:100px
+}
+
+#menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+}
+
+#menu li{
+    display:inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration:none;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:16px;
+    line-height: 100px;
+    color:white;
+
+    padding:0 40px;
+    border:none;
+    display:block;
+}
+
+#menu a:hover{
+    background-color:#a50930;
+}
+
+/************************************************************************************/
+/*Header                                                                            */
+/************************************************************************************/
+
+#header{
+    padding: 30px 0px 30px 0;
+    background-color:rgba(0, 0, 0, 0.883);
+    text-align:center;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size:44px;
+    color:white;
+}
+
+#header p{
+    letter-spacing: 0.1em;
+    font-style: italic;
+    color:white;
+}
+
+/************************************************************************************/
+/*Banner                                                                            */
+/************************************************************************************/
+
+#banner{
+    height:300px;
+}
+
+#banner img{
+    width:100%;
+    height:363px;
+}
+
+/************************************************************************************/
+/*Page                                                                              */
+/************************************************************************************/
+
+#page{
+    min-height: 400px;
+    padding:50px 20px 10px 20px;
+}
+
+#page h2{
+    margin-bottom:12px;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight:545;
+    font-size:25px;
+    padding:7px;
+    color:rgb(9, 8, 8);
+}
+
+/* CONTENT */
+
+#content{
+    float:left;
+    width:70%;
+    padding-bottom:20px;
+    margin-left:30px;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float:right;
+    width:25%;
+}
+
+/* Lists */
+
+ul.styled{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+ul.styled li{
+    color:#7d0624;
+    text-align: center;
+    border-top: solid 1px rgb(149, 145, 145);
+    padding: 14px 0px;
+}
+
+form{
+    color:rgb(21, 20, 20);
+}
+
+/************************************************************************************/
+/*Footer                                                                            */
+/************************************************************************************/
+
+#footer{
+    width:100%;
+    height:340px;
+    background-color: #0e0e0ef3;
+    padding-top:25px;
+    clear:both;
+}
+
+#footer h2{
+    font-size:18px;
+    font-weight:400;
+    text-align:center;
+    text-transform:uppercase;
+    color:white;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color:#adadad;
+}
+
+#box1{
+    float:left;
+    width:30%;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#box2{
+    float:left;
+    width:30%;
+    padding-left:30px;
+}
+
+#box3{
+    float:right;
+    width:28%;
+}
+
+#box3 img{
+    padding-left:35px;
+}
+
+#box3 h2{
+    padding-right:80px;
+}
+
+#box3 p{
+    padding-right:60px;
+}
+
+/************************************************************************************/
+/*Copyright                                                                         */
+/************************************************************************************/
+
+#copyright{
+    width:100%;
+    height:130px;
+    text-align:center;
+    background-color:#900528;
+    padding-top:55px;
+    clear:both;
+}
+
+#copyright p{
+    font-size:12px;
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+    color:white;
+}
+
+/************************************************************************************/
+/*Vehicles                                                                           */
+/************************************************************************************/
+
+#vehicles img{
+    width:130px;
+    margin:7px;
+    padding:0px 15px 0px 15px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#vehicles img:hover{
+    -moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+}
+
+td li{
+    list-style-type:none;
+    padding:0px 20px 1px 25px;
+}
+
+b{
+    color:#7d0624;
+}
+
+
+
